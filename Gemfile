@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '7.0.0'
 gem 'puma', '5.6.0'
 
-gem 'pg', '1.3.5'
+gem 'pg', '1.6.3'
 gem 'faraday', '2.5.0'
 
 group :development, :test do
