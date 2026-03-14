@@ -9,7 +9,7 @@ gem 'pg', '1.3.5'
 gem 'faraday', '2.5.0'
 
 group :development, :test do
-  gem 'rspec-rails', '5.1.0'
+  gem 'rspec-rails', '8.0.4'
   gem 'factory_bot_rails', '6.2.0'
 
   gem 'rubocop', '1.31.2'
