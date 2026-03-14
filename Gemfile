@@ -12,7 +12,7 @@ group :development, :test do
   gem 'rspec-rails', '5.1.0'
   gem 'factory_bot_rails', '6.2.0'
 
-  gem 'rubocop', '1.31.2'
-  gem 'rubocop-rails', '2.15.0'
-  gem 'rubocop-rspec', '2.12.0'
+  gem 'rubocop', '1.85.1'
+  gem 'rubocop-rails', '2.34.3'
+  gem 'rubocop-rspec', '2.31.0'
 end
