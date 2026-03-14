@@ -6,7 +6,7 @@ gem 'rails', '7.0.0'
 gem 'puma', '5.6.0'
 
 gem 'pg', '1.3.5'
-gem 'faraday', '2.5.0'
+gem 'faraday', '2.14.1'
 
 group :development, :test do
   gem 'rspec-rails', '5.1.0'
