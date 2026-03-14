@@ -221,6 +221,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@rolldown/pluginutils@1.0.0-rc.2":
+  version "1.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@rolldown/pluginutils/-/pluginutils-1.0.0-rc.2.tgz#10324e74cb3396cb7b616042ea7e9e6aa7d8d458"
+  integrity sha512-izyXV/v+cHiRfozX62W9htOAvwMo4/bXKDrQ+vom1L1qRuexPock/7VZDAhnpHCLNejd3NJ6hiab+tO0D44Rgw==
+
 "@sinclair/typebox@^0.27.8":
   version "0.27.10"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.10.tgz#beefe675f1853f73676aecc915b2bd2ac98c4fc6"
@@ -243,10 +248,12 @@
   dependencies:
     undici-types "~7.18.0"
 
-"@vitejs/plugin-vue@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-4.2.0.tgz#23d0f58d1b006c3ce1b612a5f7671210fbc543f0"
-  integrity sha512-hYaXFvEKEwyTmwHq2ft7GGeLBvyYLwTM3E5R1jpvzxg9gO4m5PQcTVvj1wEPKoPL8PAt+KAlxo3gyJWnmwzaWQ==
+"@vitejs/plugin-vue@6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-6.0.5.tgz#20ebb46c4da069753d9cfb1309c4334213cc3f7b"
+  integrity sha512-bL3AxKuQySfk1iGcBsQnoRVexTPJq0Z/ixFVM8OhVJAP6ZXXXLtM7NFKWhLl30Kg7uTBqIaPXbh+nuQCuBDedg==
+  dependencies:
+    "@rolldown/pluginutils" "1.0.0-rc.2"
 
 "@vitest/expect@0.34.0":
   version "0.34.0"
